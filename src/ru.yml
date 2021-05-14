@@ -13,9 +13,9 @@ tab_header:
     - '§6§lAbelix'
     - ''
     - '§fОнлайн сервера: §a%online%'
-    - '§fВаш сервер: §a%server%'
+    - '§fСервер: §a%server%'
     - ''
 tab_footer:
     - ''
-    - '§fПокупка привилегий:'
-    - '§bhttps://abelix.club/'
+    - '§fСайт: §eabelix.club'
+    - '§fВК: §bvk.com/abelixclub'
