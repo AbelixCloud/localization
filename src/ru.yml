@@ -12,7 +12,7 @@ group_help:
 tab_header:
     - '§6§lAbelix'
     - ''
-    - '§fОнлайн сервера: §a%online%'
+    - '§fОнлайн проекта: §a%online%'
     - '§fСервер: §a%server%'
     - ''
 tab_footer:
