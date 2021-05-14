@@ -6,8 +6,8 @@ command_minimal_group_error: '$prefix$Данная команда доступн
 
 group_command_list: '$prefix$Список групп: §7%groups%'
 group_help:
-    - ' §e/group set <ник игрока> <название/id группы> §7- §fустановить группу'
-    - ' §e/group list §7- §fсписок доступных групп'
+    - ' §a/group set <ник игрока> <название/id группы> §7- §fустановить группу'
+    - ' §a/group list §7- §fсписок доступных групп'
 
 tab_header:
     - '§6§lAbelix'
