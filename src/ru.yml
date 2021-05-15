@@ -1,3 +1,109 @@
+# =======================
+#         Авторизация
+# =======================
+
+auth_prefix: '§6Авторизация §8» §r'
+auth_not_registered: '$prefix$Вы должны быть зарегистрированными, чтобы использовать данную команду'
+auth_not_authorized: '$prefix$Вы должны быть авторизированны, чтобы использовать данную команду'
+auth_already_registered: '$prefix$Вы уже зарегистрированы'
+auth_account_not_premium: '$prefix$Данный аккаунт не является лицензионным'
+auth_license_to_confirm: '$prefix$Для подтверждения лицензионного аккаунта, вам необходимо перезайди на сервер в течении 2-х минут'
+auth_license_off: '$prefix$Вы успешно отключили вход с лицензионного аккаунта'
+auth_already_login: '$prefix$Вы уже авторизированны на сервере'
+auth_logout:
+    - '§cВы вышли из своего аккаунта'
+auth_command_login_use: '$prefix$Пожалуйста, авторизуйтесь на сервер с помощью команды §a/login <пароль>'
+auth_command_register_use: '$prefix$Вам необходимо зарегистрироваться, используйте §a/register <пароль> <повтор пароля>'
+auth_changepassword_use: '$prefix$Неверно введены аргументы команды, используйте /changepassword <пароль> <повтор пароля>'
+auth_changepassword_wrong_password: '$prefix$.'
+auth_change_password: '$prefix$Ваш пароль успешно изменен!'
+auth_change_password_hover:
+    - '§rПароль: §a%password%'
+    - ''
+    - '§rЗапомните свой пароль или сделайте'
+    - '§rскриншот, чтобы не забыть - §cклавиша F2'
+auth_success_login_via_license: '$prefix$Авторизация успешно пройдена, поскольку у вас включена лицензия'
+auth_success_confirm_license: '$prefix$Лицензия успешно подтверждена!'
+auth_minimal_nick_length: '§cМинимальная длинна ника 4 символа'
+auth_not_allowed_nick_symbol: '§cВаш ник состоит из недопустимых символов'
+auth_password_length: '$prefix$Введенный вами пароль должен быть не менее %min% и не более %max% символов'
+auth_double_auth_confirm: '$prefix$На вашем аккаунт включена двухэтапная авторизации, подтвердите вход через §9ВКонтакте'
+auth_double_auth_wait: '$prefix$Для входа вам необходимо подтвердить вход с помощью §bВКонтакте'
+auth_double_auth_timeout:
+    - '§cВремя подтверждения входа через ПК истекло, перезайдите на сервер'
+auth_need_double_auth_confirm: '$prefix$Подтвердите вход через §9ВКонтакте'
+auth_wrong_password_limit:
+    - '§cВспомните пароль, а потом зайдите'
+auth_dont_use_password: '$prefix$Пожалуйста, если вы не хотите, чтобы вас взломали, не используйте пароли, начинающиеся с 12345'
+auth_wrong_case:
+    - '§cНеверно указаный ник, используйте %user_name%'
+
+auth_ip_address_is_used:
+    - '§cПод данным IP-адресом уже играет кто-то'
+auth_max_register_per_ip_limit:
+    - '§cВы больше не можете зарегистрировать аккаунт, посколько'
+    - '§cваш лимит аккаунтов исчерпан'
+auth_account_does_not_belong_you:
+    - '§cДанный аккаунт не является вашим'
+auth_success_register: '$prefix$Вы успешно зарегистрировались! §7(наведите сюда)'
+auth_success_register_hover:
+    - '§rIP адрес: §a%ip% §7(%location%)'
+    - '§rПароль: §a%password%'
+    - ''
+    - '§rЗапомните свой пароль или сделайте'
+    - '§rскриншот, чтобы не забыть - §cклавиша F2'
+auth_passwords_not_match: '$prefix$Пароли, которые вы ввели, не совпадают'
+auth_wrong_password: '$prefix$Вы ввели неверный пароль, у вас еще есть %attempts%'
+auth_login_timeout: '§cВремя авторизации истекло, перезайдите на сервер'
+auth_account_banned:
+    - '§cВаш IP адрес был заблокирован'
+    - '§cна %time_left%'
+    - ''
+    - '§7Если вы думаете, что это ошибка, сообщите ему'
+    - '§bhttps://vk.com/westorix'
+    
+auth_block_commands: '$prefix$Вы не можете использовать чат на сервере авторизации'
+
+auth_title: '§6§lWestorix Network'
+auth_subtitle: '§rДля продолжения %type%'
+
+vk_command_status:
+    - 'Информация о аккаунте %user_name_with_group%:'
+    - ''
+    - 'Статус: %user_group%'
+    - 'IP адрес: %user_ip%'
+    - 'Лицензия: %license%'
+    - '%status%: %server%'
+    - ''
+    - 'Уведомления: %notification%'
+    - 'Заблокирован: %banned%'
+    - 'Двухэтапная аутентификация: %double_auth%'
+    - ''
+vk_command_status_offline:
+    - ''
+    - 'Последний раз был в сети:'
+    - ' %last_join_time% назад'
+vk_double_auth_keyboard_show:
+    - 'Подтверждение входа в аккаунт'
+    - ''
+    - ' !аккаунт разрешить - разрешить вход'
+    - ' !аккаунт запретить - запретить вход'
+    - ''
+vk_user_is_banned:
+    - '§cАккаунт заблокирован через §9ВКонтакте'
+vk_bind_command_use: 'Правильное использование: !аккаунт привязать <ник игрока> <пароль>'
+vk_user_is_bind: 'У вас уже есть привязанный аккаунт'
+vk_user_already_bind: 'Аккаунт %user% уже привязан другим человеком'
+vk_bind: 'Аккаунт %user% успешно привязан!'
+vk_bind_for_player: '$prefix$Данный аккаунт успешно привязан к §avk.com/id%id%'
+vk_login_admin_notificate:
+    - '⚠ На ваш аккаунт была выполнена попытка входа!'
+    - ''
+    - 'IP адрес: %ip% (%location%)'
+    - 'Время: %time%'
+    - ''
+    - ''
+
 main_prefix: '§6Abelix §8» §f'
 
 subcommand_help: '§fПомощь по команде §a%command%§f:'
