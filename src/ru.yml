@@ -40,12 +40,41 @@ lobby_profile_main_item_lore:
     - ''
     - '§7Ваш статус: %user_group%'
     - '§7Монет: §e%user_money%'
+    - '§7Золота: §6%user_gold%'
     - ''
     - '§7Уровень: §d%user_level%'
     - '§7Опыта до следующего уровня: §a%user_exp_to_next_level%XP'
     - ''
     - '§7Первый вход был осуществлен:'
     - ' §f%user_first_join%'
+lobby_profile_friends_item_name: '§eДрузья'
+lobby_profile_friends_item_lore:
+    - '§7Открыв это меню, вы можете просмотреть'
+    - '§7список друзей онлайн и оффлайн, а также'
+    - '§7телепортироваться к ним на сервер,'
+    - '§7если он, конечно же, не переполнен'
+    - ''
+    - '§7Друзья онлайн: §a%user_friends_online_size%'
+    - ''
+    - '§aНажмите, чтобы открыть меню'
+lobby_friends_online_item_lore:
+    - ''
+    - '§7Уровень: §d%friend_level%'
+    - '§7Сервер: §a%server%'
+    - ''
+    - '§aНажмите, чтобы телепортироваться к нему'
+lobby_friends_offline_item_lore:
+    - ''
+    - '§7Уровень: §d%friend_level%'
+    - '§7Последний сервер: §a%server%'
+    - ''
+    - '§7Последний раз был в сети:'
+    - ' §f%friend_last_login%'
+
+lobby_item_back_name: '§cНазад'
+lobby_item_back_lore:
+    - '§7Нажмите, чтобы вернуться в профиль'
+
 
 # ====================
 #        Other
