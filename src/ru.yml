@@ -60,11 +60,11 @@ auth_account_banned:
     - '§cна %time_left%'
     - ''
     - '§7Если вы думаете, что это ошибка, сообщите ему'
-    - '§bhttps://vk.com/westorix'
+    - '§bhttps://vk.com/abelixclub'
     
 auth_block_commands: '$prefix$Вы не можете использовать чат на сервере авторизации'
 
-auth_title: '§6§lWestorix Network'
+auth_title: '§6§lAbelix'
 auth_subtitle: '§rДля продолжения %type%'
 
 vk_command_status:
