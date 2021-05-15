@@ -5,6 +5,7 @@ command_wrong_usage: '$prefix$Вы ошиблись при исполнении 
 command_minimal_group_error: '$prefix$Данная команда доступна от группы %group% §fи выше'
 command_player_never_played_error: '$prefix$Игрок §7%user_name% §fникогда прежде не играл на проекте'
 command_player_offline: '$prefix$Игрок §7%user_displayname% §fоффлайн'
+command_double: '$prefix$Использование двоеточий в командах запрещено!'
 
 group_incorrect_error_id: '$prefix$Введено некорректный ID группы'
 group_incorrent_error_name: '$prefix$Введено некорректное название группы'
