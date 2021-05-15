@@ -110,6 +110,11 @@ lobby_item_back_lore:
 #        Other
 # ====================
 
+creative: 'Креатив'
+survival: 'Выживание'
+adventure: 'Приключенческий'
+spectator: 'Наблюдатель'
+
 eternity: 'вечность'
 unknown: 'неизвестно'
 time_day_1:
@@ -139,7 +144,7 @@ time_minutes_2:
     - ''
 
 motd:
-    - '§6§lAbelix §8| §fabelix.club §8| §b1.8-1.16.x'
-    - '                  §r123'
+    - '     §6§lAbelix §8| §fabelix.club §8| §b1.8-1.16.x'
+    - '               §fЗакрытое бета-тестирование'
 
 loading: '§cЗагрузка..'
