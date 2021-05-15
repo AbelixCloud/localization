@@ -32,6 +32,23 @@ tab_footer:
     - ''
 
 # ====================
+#        Lobby
+# ====================
+lobby_profile_main_item_name: '§eИнформация о вас'
+lobby_profile_main_item_lore:
+    - '§8Ваш идентификатор: %user_id%'
+    - ''
+    - '§7Ваш статус: %user_group%'
+    - '§7Монет: §e%user_money%'
+    - ''
+    - '§7Уровень: §d%user_level%'
+    - '§7Опыта до следующего уровня: §a%user_exp_to_next_level%XP'
+    - ''
+    - '§7Первый вход был осуществлен:'
+    - ' §f%user_first_join%'
+
+
+# ====================
 #        Other
 # ====================
 
