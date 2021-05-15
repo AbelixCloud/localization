@@ -80,6 +80,27 @@ lobby_friends_offline_item_lore:
     - '§7Последний раз был в сети:'
     - ' §f%friend_last_login%'
 
+lobby_profile_language_item_name: '§eСмена языка'
+lobby_profile_language_item_lore:
+    - '§7Эта функция предназначена для тех,'
+    - '§7кто хочет изменить свой язык на другой'
+    - ''
+lobby_profile_language_item_lore2:
+    - '§7Доступные языки:'
+lobby_profile_language_item_lore3:
+    - ''
+    - '§7Выбранный язык: §a%user_selected_language%'
+    - ''
+    - '§aНажмите, чтобы открыть меню'
+lobby_profile_language_gui_item_lore:
+    - '§7При нажатии на этот элемент ваш'
+    - '§7язык изменится на §a%language_name%'
+    - ''
+lobby_profile_language_gui_item_lore_click_to_select:
+    - '§aНажмите, чтобы выбрать'
+lobby_profile_language_gui_item_lore_already_selected:
+    - '§eДанный язык уже выбран'
+
 lobby_item_back_name: '§cНазад'
 lobby_item_back_lore:
     - '§7Нажмите, чтобы вернуться в профиль'
