@@ -10,6 +10,7 @@ group_incorrect_error_id: '$prefix$Введено некорректный ID г
 group_incorrent_error_name: '$prefix$Введено некорректное название группы'
 player_already_has_group: '$prefix$У данного игрока уже есть данная группа'
 group_successfully_changed: '$prefix$Группа игрока %user_displayname%§f успешно изменена на %group_colouredname%'
+group_successfully_changed_broadcast: '$prefix$%user_displayname%§f изменил группу игрока %target_displayname%§f на §f%group_colouredname%'
 group_command_list: '$prefix$Список групп: §7%groups%'
 group_help:
     - ' §a/group set <ник игрока> <название/id группы> §7- §fустановить группу'
@@ -33,6 +34,34 @@ tab_footer:
 # ====================
 #        Other
 # ====================
+
+eternity: 'вечность'
+unknown: 'неизвестно'
+time_day_1:
+    - 'д'
+    - 'ень'
+    - 'ня'
+    - 'ней'
+time_second_2:
+    - 'секунд'
+    - 'а'
+    - 'ы'
+    - ''
+time_hours_1:
+    - 'час'
+    - ''
+    - 'а'
+    - 'ов'
+time_minutes_1:
+    - 'минут'
+    - 'у'
+    - 'ы'
+    - ''
+time_minutes_2:
+    - 'минут'
+    - 'а'
+    - 'ы'
+    - ''
 
 motd:
     - '§6§lAbelix §8| §fabelix.club §8| §b1.8-1.16.x'
