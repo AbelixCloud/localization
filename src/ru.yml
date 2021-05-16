@@ -233,7 +233,7 @@ recent_game_item_name: '§aИгра #%recent_game_id%'
 recent_game_item_lore:
     - ''
     - '§8Информация о арене:'
-    - ' §7Карта: %recent_game_map%'
+    - ' §7Карта: §a%recent_game_map%'
     - ' §7Игроки: %recent_game_players%'
     - ' §7Победители: %recent_game_winners%'
     - ''
