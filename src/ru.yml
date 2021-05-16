@@ -227,6 +227,8 @@ lobby_item_back_name: '§cНазад'
 lobby_item_back_lore:
     - '§7Нажмите, чтобы вернуться в профиль'
 
+recent_game_gametype_null: '$prefix$Не удалось найти указанный вами тип сервера!'
+recent_game_gametype_not_game: '$prefix$Этот тип сервера не является игровым!'
 recent_game_item_name: '§aИгра #%recent_game_id%'
 recent_game_item_lore:
     - ''
