@@ -212,6 +212,16 @@ lobby_profile_language_gui_item_lore_click_to_select:
 lobby_profile_language_gui_item_lore_already_selected:
     - '§eДанный язык уже выбран'
 
+serverselector_luckywars_item_name: '§e§lLuckyWars'
+serverselector_luckywars_item_lore:
+    - '§7В этой игре ваша цель состоит в том,'
+    - '§7чтобы разбивать блоки блоков,'
+    - '§7собирать классные вещи и убивать всех противников'
+    - ''
+    - '§8Онлайн режима %online%'
+    - ''
+    - '§aНажмите, чтобы подключиться'
+
 lobby_item_back_name: '§cНазад'
 lobby_item_back_lore:
     - '§7Нажмите, чтобы вернуться в профиль'
