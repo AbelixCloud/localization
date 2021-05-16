@@ -227,6 +227,20 @@ lobby_item_back_name: '§cНазад'
 lobby_item_back_lore:
     - '§7Нажмите, чтобы вернуться в профиль'
 
+recent_game_item_name: '§aИгра #%recent_game_id%'
+recent_game_item_lore:
+    - ''
+    - '§8Информация о арене:'
+    - ' §7Карта: %recent_game_map%'
+    - ' §7Игроки: %recent_game_players%'
+    - ' §7Победители: %recent_game_winners%'
+    - ''
+    - '§7Игра была запущена §f%recent_game_started_time%'
+    - '§7Длительность: §a%recent_game_duration%'
+    - ''
+    - '§8Информация о сервере:'
+    - ' §7Сервер: §a%recent_game_server%'
+    - ' §7Подтип: §a%recent_game_subtype%'
 
 # ====================
 #        Other
