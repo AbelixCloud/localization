@@ -214,6 +214,7 @@ lobby_profile_language_gui_item_lore_already_selected:
 
 serverselector_luckywars_item_name: '§e§lLuckyWars'
 serverselector_luckywars_item_lore:
+    - ''
     - '§7В этой игре ваша цель состоит в том,'
     - '§7чтобы разбивать блоки блоков,'
     - '§7собирать классные вещи и убивать всех противников'
