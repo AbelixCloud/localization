@@ -113,6 +113,10 @@ command_player_never_played_error: '$prefix$Игрок §7%user_name% §fник�
 command_player_offline: '$prefix$Игрок §7%user_displayname% §fоффлайн'
 command_double: '$prefix$Использование двоеточий в командах запрещено!'
 
+server_not_found: '$prefix$Сервер §a%server% §fне обнаружен'
+server_result: '$prefix$Вы телепортированы на сервер §a%server%'
+already_on_server: '$prefix$Вы уже находитесь на данном сервер'
+
 group_incorrect_error_id: '$prefix$Введено некорректный ID группы'
 group_incorrent_error_name: '$prefix$Введено некорректное название группы'
 player_already_has_group: '$prefix$У данного игрока уже есть данная группа'
