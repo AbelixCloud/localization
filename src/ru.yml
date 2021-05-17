@@ -296,3 +296,15 @@ motd:
     - '               §fЗакрытое бета-тестирование'
 
 loading: '§cЗагрузка..'
+
+# ====================
+#        Core
+# ====================
+core_prefix: '§6Core §8» §r'
+
+core_stop_server_null: '$prefix$Сервер §e%server% §fне найден'
+core_stop_server_successfully: '$prefix$Сервер §e%server% §fотправлен на перезагрузку'
+core_stop_servers_successfully: '$prefix$Сервера с префиксом §e%prefix% §fотправлены на перезагрузку'
+
+server_started: '$prefix$Сервер §e%server% §fподключен к ядру'
+server_disconnected: '$prefix$Сервер §e%server% §fотключен от ядра'
