@@ -169,6 +169,12 @@ lobby_profile_level_item_lore:
     - '§aНажмите, чтобы открыть меню'
     
 lobby_level_reward_name: 'Награда за %level% уровень'
+lobby_level_reward_lore:
+- '§7Награы за достижение §f%level% §7уровня:'
+lobby_level_reward_lore2:
+- '§eНажмите, чтобы забрать награды!'
+lobby_level_reward_lore3:
+- '§cНаграды за этот уровень уже получены!'
 
 user_level_no_equal_reward_level: '$prefix$Вы еще не достигли уровня, необходимого для получения этой награды'
 user_level_already_give: '$prefix$Вы уже получили награды за данный уровень!'
