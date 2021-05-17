@@ -111,10 +111,13 @@ command_wrong_usage: '$prefix$Вы ошиблись при исполнении 
 command_minimal_group_error: '$prefix$Данная команда доступна от группы %group% §fи выше'
 command_player_never_played_error: '$prefix$Игрок §7%user_name% §fникогда прежде не играл на проекте'
 command_player_offline: '$prefix$Игрок §7%user_displayname% §fоффлайн'
+command_player_not_exist: '$prefix$Игрок §7%name% §fникогда прежде не играл на нашем проекте'
+command_unvailable_from_console: '$prefix$Данная команда доступна только для игроков'
 command_double: '$prefix$Использование двоеточий в командах запрещено!'
 
 server_not_found: '$prefix$Сервер §a%server% §fне обнаружен'
 server_result: '$prefix$Вы телепортированы на сервер §a%server%'
+server_not_enabled: '$prefix$Сервер §a%server% §fотключен, телепортация невозможна'
 already_on_server: '$prefix$Вы уже находитесь на данном сервер'
 
 group_incorrect_error_id: '$prefix$Введено некорректный ID группы'
