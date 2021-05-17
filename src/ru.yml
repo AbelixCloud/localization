@@ -170,15 +170,25 @@ lobby_profile_level_item_lore:
     
 lobby_level_reward_name: 'Награда за %level% уровень'
 lobby_level_reward_lore:
-- '§7Награы за достижение §f%level% §7уровня:'
+    - '§7Награы за достижение §f%level% §7уровня:'
 lobby_level_reward_lore2:
-- '§eНажмите, чтобы забрать награды!'
+    - '§eНажмите, чтобы забрать награды!'
 lobby_level_reward_lore3:
-- '§cНаграды за этот уровень уже получены!'
+    - '§cНаграды за этот уровень уже получены!'
 
 user_level_no_equal_reward_level: '$prefix$Вы еще не достигли уровня, необходимого для получения этой награды'
 user_level_already_give: '$prefix$Вы уже получили награды за данный уровень!'
 user_no_have_other_reward: '$prefix$Чтобы получить эту награду, вам нужно забрать награды за предыдущие уровни'
+
+donate_menu_group_name_format: '§eПривилегия %group%'
+donate_menu_group_iron_lore:
+    - ''
+donate_menu_group_gold_lore:
+    - ''
+donate_menu_group_diamond_lore:
+    - ''
+donate_menu_group_diamond_plus_lore:
+    - ''
 
 lobby_profile_friends_item_name: '§eДрузья'
 lobby_profile_friends_item_lore:
