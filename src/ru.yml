@@ -115,6 +115,8 @@ command_player_not_exist: '$prefix$Игрок §7%name% §fникогда пре
 command_unvailable_from_console: '$prefix$Данная команда доступна только для игроков'
 command_double: '$prefix$Использование двоеточий в командах запрещено!'
 
+staffchat_format: '§9Персонал §8» §r%user_displayname%§8: §f%message%'
+
 server_not_found: '$prefix$Сервер §a%server% §fне обнаружен'
 server_result: '$prefix$Вы телепортированы на сервер §a%server%'
 server_not_enabled: '$prefix$Сервер §a%server% §fотключен, телепортация невозможна'
