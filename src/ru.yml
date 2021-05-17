@@ -117,6 +117,9 @@ command_double: '$prefix$Использование двоеточий в ком
 
 staffchat_format: ' §cПерсонал §8» §r%user_displayname%§8: §f%message%'
 
+cant_write_message_yourself: '$prefix$Вы не можете написать сообщение самому себе'
+interlocutor_null: '$prefix$Ваш собеседник не обнаружен' 
+
 server_not_found: '$prefix$Сервер §a%server% §fне обнаружен'
 server_result: '$prefix$Вы телепортированы на сервер §a%server%'
 server_not_enabled: '$prefix$Сервер §a%server% §fотключен, телепортация невозможна'
