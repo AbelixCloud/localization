@@ -189,6 +189,18 @@ donate_menu_group_diamond_lore:
     - ''
 donate_menu_group_diamond_plus_lore:
     - ''
+    
+lobby_selector_item_lore:
+    - ''
+    - '§7Онлайн лобби: §f%online%'
+    - ''
+lobby_selector_item_lore_friends: '§7Друзья на сервере:'
+lobby_selector_item_lore_friends_format: ' §8◾ §r%friend_displayname%'
+
+lobby_selector_already_server_name: '§a'
+lobby_selector_click_to_teleport_name: '§e'
+lobby_selector_already_server_lore: '§aВы уже находитесь здесь'
+lobby_selector_click_to_teleport_lore: '§e‣ Нажмите, чтобы телепортироваться'    
 
 lobby_profile_friends_item_name: '§eДрузья'
 lobby_profile_friends_item_lore:
