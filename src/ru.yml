@@ -152,6 +152,12 @@ group_command_list: '$prefix$Список групп: §7%groups%'
 group_help:
     - ' §a/group set <ник игрока> <название/id группы> §7- §fустановить группу'
     - ' §a/group list §7- §fсписок доступных групп'
+    
+friends_help:
+    - ' §a/friend add <ник игрока> §7- §fдобавить в друзья'
+    - ' §a/friend remove <ник игрока> §7- §fудалить из друзей'
+    - ' §a/friend list §7- §fсписок друзей'
+    - ' §a/friend tp <ник игрока> §7- §fтелепортироваться на сервер друга'
 
 player_data_has_been_updated:
     - '§eВаши игровые данные были обновлены'
