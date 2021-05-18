@@ -169,6 +169,8 @@ tab_footer:
     - ''
 
 teleport_successfully: '$prefix$Вы телепортированы на координаты §a%coords%'
+gamemode_equal_null: '$prefix$Введен неправильный игровой режим'
+gamemode_changed: '$prefix$Ваш игровой режим изменен на %gamemode%'
 
 # ====================
 #        Lobby
