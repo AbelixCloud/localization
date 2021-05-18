@@ -143,7 +143,6 @@ whitelist_enable_kick:
     - '§b§nhttps://vk.com/abelixclub'
     - ''
 
-
 group_incorrect_error_id: '$prefix$Введено некорректный ID группы'
 group_incorrent_error_name: '$prefix$Введено некорректное название группы'
 player_already_has_group: '$prefix$У данного игрока уже есть данная группа'
@@ -168,6 +167,8 @@ tab_footer:
     - '§fСайт: §eabelix.club'
     - '§fВК: §bvk.com/abelixclub'
     - ''
+
+teleport_successfully: '$prefix$Вы телепортированы на координаты §a%coords%'
 
 # ====================
 #        Lobby
