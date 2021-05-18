@@ -284,6 +284,15 @@ lobby_profile_language_gui_item_lore_click_to_select:
 lobby_profile_language_gui_item_lore_already_selected:
     - '§eДанный язык уже выбран'
 
+statistics_gui_item_luckywars_name: '§e§lLuckyWars'
+statistics_gui_item_luckywars_lore:
+    - ''
+    - '§8Информация о Solo:'
+    - ' §8- §7Побед: §a%statistics_wins_luckywars_solo%'
+    - ' §8- §7Поражений: §c%statistics_fails_luckywars_solo%'
+    - ' §8- §7Убийств: §c%statistics_wins_luckywars_solo%'
+    - ''
+
 serverselector_luckywars_item_name: '§e§lLuckyWars'
 serverselector_luckywars_item_lore:
     - ''
