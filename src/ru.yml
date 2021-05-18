@@ -158,6 +158,10 @@ friends_help:
     - ' §a/friend remove <ник игрока> §7- §fудалить из друзей'
     - ' §a/friend list §7- §fсписок друзей'
     - ' §a/friend tp <ник игрока> §7- §fтелепортироваться на сервер друга'
+    
+friends_already_friend: '$prefix$Вы уже являетесь друзьями!'
+friends_already_sent_request: '$prefix$Вы уже отправляли запрос в друзья игроку %user_displayname%'
+friends_invite_sent: '$prefix$Вы отправили запрос в друзья игроку %user_displayname%'
 
 player_data_has_been_updated:
     - '§eВаши игровые данные были обновлены'
