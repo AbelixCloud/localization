@@ -125,6 +125,25 @@ server_result: '$prefix$Вы телепортированы на сервер §
 server_not_enabled: '$prefix$Сервер §a%server% §fотключен, телепортация невозможна'
 already_on_server: '$prefix$Вы уже находитесь на данном сервере'
 
+whitelist_kick:
+    - ''
+    - '§6§lAbelix'
+    - ''
+    - '§7На данный момент на сервере включен белый список,'
+    - '§7и если вы один из тех, кто находится в белом списке,'
+    - '§7возможно, произошла какая-то ошибка, сообщите об этом группе:'
+    - '§b§bhttps://vk.com/abelixclub'
+    - ''
+whitelist_enable_kick:
+    - ''
+    - '§6§lAbelix'
+    - ''
+    - '§7На сервере включен вайтлист.'
+    - '§7Если вы считаете, что это ошибка, сообщите об этом группе:'
+    - '§b§nhttps://vk.com/abelixclub'
+    - ''
+
+
 group_incorrect_error_id: '$prefix$Введено некорректный ID группы'
 group_incorrent_error_name: '$prefix$Введено некорректное название группы'
 player_already_has_group: '$prefix$У данного игрока уже есть данная группа'
