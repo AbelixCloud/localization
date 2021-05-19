@@ -158,10 +158,25 @@ friends_help:
     - ' §a/friend remove <ник игрока> §7- §fудалить из друзей'
     - ' §a/friend list §7- §fсписок друзей'
     - ' §a/friend tp <ник игрока> §7- §fтелепортироваться на сервер друга'
-    
+
+friends_cant_add_yourself: '$prefix$Вы не можете добавить в друзья самого себя!'
 friends_already_friend: '$prefix$Вы уже являетесь друзьями!'
+friends_no_friend: '$prefix$Вы не являетесь друзьями!'
 friends_already_sent_request: '$prefix$Вы уже отправляли запрос в друзья игроку %user_displayname%'
 friends_invite_sent: '$prefix$Вы отправили запрос в друзья игроку %user_displayname%'
+friends_dont_have_request_from: '$prefix$У вас нет запросов в друзья от игрока %user_displayname%'
+friends_player_removed: '$prefix$Вы удалили игрока %user_displayname% §fиз друзей'
+friends_player_removed_you: '$prefix$%user_displayname% §fудалил вас из друзей'
+friends_player_deny: '$prefix$Вы отклонили запрос в друзья от игрока %user_displayname%'
+friends_player_deny_you: '$prefix$%user_displayname% §fотклонил ваш запрос в друзья'
+friends_player_accept: '$prefix$Вы приняли запрос в друзья от игрока %user_displayname%'
+friends_player_accept_you: '$prefix$%user_displayname% §fпринял ваш запрос в друзья. §eПоздравляем!'
+friends_invite_received1: '§8-| §6Друзья §8|-'
+friends_invite_received2: '§r%user_displayname% §fпредлагает вам стать друзьями'
+friends_invite_received_accept: '§a[ПРИНЯТЬ]'
+friends_invite_received_accept_hover: '§fНажмите, чтобы принять заявку'
+friends_invite_received_deny: '§c[ОТКЛОНИТЬ]'
+friends_invite_received_deny_hover: '§fНажмите, чтобы отклонить заявку'
 
 player_data_has_been_updated:
     - '§eВаши игровые данные были обновлены'
