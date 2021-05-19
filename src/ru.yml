@@ -442,5 +442,20 @@ core_stop_server_null: '$prefix$Сервер §e%server% §fне найден'
 core_stop_server_successfully: '$prefix$Сервер §e%server% §fотправлен на перезагрузку'
 core_stop_servers_successfully: '$prefix$Сервера с префиксом §e%prefix% §fотправлены на перезагрузку'
 
+core_command_whois_result:
+    - '$prefix$Информация о игроке §e%user_displayname%:'
+    - ' §8- §fИдентификатор: §a%user_id%'
+    - ' §8- §fГруппа: %user_group_colouredname%'
+    - ' §8- §fМонет: §e%user_money%'
+    - ' §8- §fЗолота: §6%user_gold%'
+    - ''
+    - ' §8- §fЯзык: §c%user_language%'
+core_command_whois_result_online:
+    - ' §8- §fСервер: §a%server_name%'
+    - ' §8- §fПрокси: §a%proxy_name%'
+core_command_whois_result_offline:
+    - ' §8- §fПоследний сервер: §a%server_name%'
+    - ' §8- §fПоследний раз был в сети: §c%user_last_login% назад'
+
 server_started: '$prefix$Сервер §e%server% §fподключен к ядру'
 server_disconnected: '$prefix$Сервер §e%server% §fотключен от ядра'
