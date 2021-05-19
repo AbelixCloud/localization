@@ -156,9 +156,13 @@ group_help:
 friends_help:
     - ' §a/friend add <ник игрока> §7- §fдобавить в друзья'
     - ' §a/friend remove <ник игрока> §7- §fудалить из друзей'
+    - ' §a/friend accept <ник игрока> §7- §fпринять запрос в друзья'
+    - ' §a/friend deny <ник игрока> §7- §fотклонить запрос в друзья'
     - ' §a/friend list §7- §fсписок друзей'
     - ' §a/friend tp <ник игрока> §7- §fтелепортироваться на сервер друга'
 
+friends_list_empty: ''
+friends_list_format_online: ' §7- §r%user_displayname% §f'
 friends_cant_add_yourself: '$prefix$Вы не можете добавить в друзья самого себя!'
 friends_already_friend: '$prefix$Вы уже являетесь друзьями!'
 friends_no_friend: '$prefix$Вы не являетесь друзьями!'
@@ -290,6 +294,9 @@ lobby_friends_offline_item_lore:
     - ''
     - '§7Последний раз был в сети:'
     - ' §f%friend_last_login%'
+lobby_friends_empty_name: '§cДрузей нет..'
+lobby_friends_empty_lore:
+    - '§7You are alone...'
 
 lobby_profile_language_item_name: '§eСмена языка'
 lobby_profile_language_item_lore:
