@@ -113,6 +113,7 @@ command_player_never_played_error: '$prefix$Игрок §7%user_name% §fник�
 command_player_offline: '$prefix$Игрок §7%user_displayname% §fоффлайн'
 command_player_not_exist: '$prefix$Игрок §7%name% §fникогда прежде не играл на нашем проекте'
 command_unvailable_from_console: '$prefix$Данная команда доступна только для игроков'
+command_subcommand_not_found: '$prefix$Введенная вами подкоманда не обнаружена'
 command_double: '$prefix$Использование двоеточий в командах запрещено!'
 
 staffchat_format: ' §cПерсонал §8» §r%user_displayname%§8: §f%message%'
@@ -292,7 +293,7 @@ lobby_friends_offline_item_lore:
     - '§7Последний сервер: §a%server%'
     - ''
     - '§7Последний раз был в сети:'
-    - ' §f%friend_last_login%'
+    - ' §f%friend_last_login% назад'
 lobby_friends_empty_name: '§cДрузей нет..'
 lobby_friends_empty_lore:
     - '§7You are alone...'
