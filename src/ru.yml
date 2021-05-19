@@ -457,7 +457,7 @@ core_command_whois_result_offline:
     - ' §8- §fПоследний сервер: §a%server_name%'
     - ' §8- §fПоследний раз был в сети:'
     - ' §8- §e%user_last_login% назад'
-core_command_whois_vk_tied: '§fУ этого игрока привязана страница §bВКонтакте§f, если вы хотите ее получить, нажмите на это сообщение'
+core_command_whois_vk_tied: ' §8* §fУ этого игрока привязана страница §9ВКонтакте§f, если вы хотите ее получить, нажмите на это сообщение'
 
 server_started: '$prefix$Сервер §e%server% §fподключен к ядру'
 server_disconnected: '$prefix$Сервер §e%server% §fотключен от ядра'
