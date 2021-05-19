@@ -256,6 +256,23 @@ lobby_selector_item_lore:
 lobby_selector_item_lore_friends: '§7Друзья на сервере:'
 lobby_selector_item_lore_friends_format: ' §8◾ §r%friend_displayname%'
 
+staff_group_category_item_lore:
+    - ''
+    - '§7Всего: §a%total%'
+    - '§7Онлайн: §a%online%'
+    - ''
+    - '§aНажмите, чтобы открыть'
+staff_group_item_lore_online:
+    - ''
+    - '§7Сервер: §a%server%'
+staff_group_item_lore_offline:
+    - ''
+    - '§7Последний сервер: §a%server%'
+    - ''
+    - '§7Последний раз был в сети:'
+    - ' §e%last_login% назад'
+
+
 lobby_selector_already_server_name: '§a'
 lobby_selector_click_to_teleport_name: '§e'
 lobby_selector_already_server_lore: '§aВы уже находитесь здесь'
