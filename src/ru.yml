@@ -455,7 +455,8 @@ core_command_whois_result_online:
     - ' §8- §fПрокси: §a%proxy_name%'
 core_command_whois_result_offline:
     - ' §8- §fПоследний сервер: §a%server_name%'
-    - ' §8- §fПоследний раз был в сети: §c%user_last_login% назад'
+    - ' §8- §fПоследний раз был в сети:'
+    - ' §e%user_last_login% назад'
 
 server_started: '$prefix$Сервер §e%server% §fподключен к ядру'
 server_disconnected: '$prefix$Сервер §e%server% §fотключен от ядра'
