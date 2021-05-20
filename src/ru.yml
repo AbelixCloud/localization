@@ -371,13 +371,15 @@ statistics_gui_item_luckywars_lore:
     - ' §8- §7Сломано лакиблоков: §e%statistics_luckyblocks_destructed_luckywars_solo%'
     - ''
 
-serverselector_luckywars_item_name: '§e§lLuckyWars'
 serverselector_luckywars_item_lore:
-    - ''
     - '§7В этой игре ваша цель состоит в том,'
     - '§7чтобы разбивать блоки блоков,'
     - '§7собирать классные вещи и убивать всех противников'
-    - ''
+serverselector_skywars_item_lore:
+    - '§7Цель игры состоит в том, чтобы'
+    - '§7собрать вещи в сундуках острова,'
+    - '§7добраться до центра и убить противников'
+serverselector_item_lore:
     - '§8Онлайн режима %online%'
     - ''
     - '§aНажмите, чтобы подключиться'
