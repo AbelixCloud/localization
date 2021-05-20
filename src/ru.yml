@@ -194,6 +194,8 @@ party_target_request_null: '$prefix$Данный игрок не приглаш�
 party_is_full: '$prefix$Группа переполнена'
 party_player_accept: '$prefix$Вы приняли запрос в группу от игрока %user_displayname%'
 party_player_accept_your: '$prefix$%user_displayname% §fпринял ваше приглашение в группу!'
+party_player_deny: '$prefix$Вы отклонили запрос в группу от игрока %user_displayname%'
+party_player_deny_your: '$prefix$%user_displayname% §fотклонил ваше приглашение в группу!'
 party_disbanded_by_core: '$prefix$Ваша группа была расформирована из-за перезагрузки кора'
 party_leader_switch_server: '$prefix$Лидер %leader% §rизменил сервер на §a%server%§r, поэтому Вы перемещены к нему'
 party_invite_received1: '§8-| §6Группа §8|-'
