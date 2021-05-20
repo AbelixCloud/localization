@@ -205,6 +205,11 @@ party_invite_received_accept: '§a[ПРИНЯТЬ]'
 party_invite_received_accept_hover: '§fНажмите, чтобы принять запрос'
 party_invite_received_deny: '§c[ОТКЛОНИТЬ]'
 party_invite_received_deny_hover: '§fНажмите, чтобы отклонить запрос'
+party_list_format:
+    - '$prefix$§rСписок игроков в группе (§a%members_size%§r/§a%max_members%§r):'
+    - ' §e• §rЛидер: §7%leader% §r(§a%leader_server%§r)'
+    - ' §e• §rУчастники: §7%members%'
+
 
 player_data_has_been_updated:
     - '§eВаши игровые данные были обновлены'
