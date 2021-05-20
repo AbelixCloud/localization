@@ -418,7 +418,7 @@ statistics_gui_item_luckywars_lore:
     - ' §8- §7Поражений: §c%statistics_fails_luckywars_solo%'
     - ''
     - ' §8- §7Убийств: §c%statistics_kills_luckywars_solo%'
-    - ' §8- §7Сломано лакиблоков: §e%statistics_luckyblocks_destructed_luckywars_solo%'
+    - ' §8- §7Сломано лаки-блоков: §e%statistics_luckyblocks_destructed_luckywars_solo%'
     - ''
 
 serverselector_luckywars_item_lore:
