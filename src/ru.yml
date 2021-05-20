@@ -475,7 +475,7 @@ core_command_whois_result_online:
 core_command_whois_result_offline:
     - ' §8- §fПоследний сервер: §a%server_name%'
     - ' §8- §fПоследний раз был в сети:'
-    - '     §e%user_last_login% назад'
+    - '   §e%user_last_login% назад'
 core_command_whois_vk_tied: ' §8* §fУ этого игрока привязана страница §9ВКонтакте§f, если вы хотите ее получить, нажмите на это сообщение'
 core_command_whois_vk_tied_hover: '§7Нажмите, чтобы открыть страницу игрока'
 
