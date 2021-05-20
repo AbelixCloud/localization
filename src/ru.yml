@@ -191,6 +191,7 @@ party_user_already_in_party: '$prefix$Данный игрок уже наход�
 party_user_already_in_party_your: '$prefix$Данный игрок уже находится в вашей группе!'
 party_invite_sent: '$prefix$Вы отправили запрос в группу игроку %user_displayname%'
 party_is_full: '$prefix$Группа переполнена'
+party_disbanded_by_core: '$prefix$Ваша группа была расформирована из-за перезагрузки кора'
 party_leader_switch_server: '$prefix$Лидер %leader% §rизменил сервер на §a%server%§r, поэтому Вы перемещены к нему'
 
 player_data_has_been_updated:
