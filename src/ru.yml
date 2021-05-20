@@ -475,6 +475,7 @@ core_command_whois_result_offline:
     - ' §8- §fПоследний раз был в сети:'
     - '     §e%user_last_login% назад'
 core_command_whois_vk_tied: ' §8* §fУ этого игрока привязана страница §9ВКонтакте§f, если вы хотите ее получить, нажмите на это сообщение'
+core_command_whois_vk_tied_hover: '§7Нажмите, чтобы открыть страницу игрока'
 
 server_started: '$prefix$Сервер §e%server% §fподключен к ядру'
 server_disconnected: '$prefix$Сервер §e%server% §fотключен от ядра'
