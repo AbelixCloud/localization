@@ -462,7 +462,7 @@ core_stop_server_successfully: '$prefix$Сервер §e%server% §fотправ
 core_stop_servers_successfully: '$prefix$Сервера с префиксом §e%prefix% §fотправлены на перезагрузку'
 
 core_command_whois_result:
-    - '$prefix$Информация о игроке §e%user_displayname%:'
+    - '$prefix$Информация о игроке §e%user_displayname%§f:'
     - ' §8- §fИдентификатор: §a%user_id%'
     - ' §8- §fГруппа: %user_group_colouredname%'
     - ' §8- §fМонет: §e%user_money%'
