@@ -436,6 +436,7 @@ serverselector_item_lore:
     - '§8Онлайн режима %online%'
     - ''
     - '§aНажмите, чтобы подключиться'
+serverselector_lobby_servers_empty: '$prefix$Лобби сервера режима §a%gametype_name% §fне найдены'
 
 lobby_item_back_name: '§cНазад'
 lobby_item_back_lore:
