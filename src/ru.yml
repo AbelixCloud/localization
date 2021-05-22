@@ -162,9 +162,12 @@ friends_help:
     - ' §a/friend list §7- §fсписок друзей'
     - ' §a/friend tp <ник игрока> §7- §fтелепортироваться на сервер друга'
 
+friends_prefix: '§6Друзья §8» §r'
 friends_cant_add_yourself: '$prefix$Вы не можете добавить в друзья самого себя!'
 friends_already_friend: '$prefix$Вы уже являетесь друзьями!'
 friends_no_friend: '$prefix$Вы не являетесь друзьями!'
+friends_join_to_server: '$prefix$Ваш друг %user_displayname% §fзашел на сервер'
+friends_quit_from_server: '$prefix$Ваш друг %user_displayname% §fвышел с сервера'
 friends_already_sent_request: '$prefix$Вы уже отправляли запрос в друзья игроку %user_displayname%'
 friends_invite_sent: '$prefix$Вы отправили запрос в друзья игроку %user_displayname%'
 friends_dont_have_request_from: '$prefix$У вас нет запросов в друзья от игрока %user_displayname%'
