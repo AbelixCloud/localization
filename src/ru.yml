@@ -389,6 +389,29 @@ lobby_profile_language_gui_item_lore_click_to_select:
 lobby_profile_language_gui_item_lore_already_selected:
     - '§eДанный язык уже выбран'
 
+lobby_map_selector_best_server_name: '§eЛучший сервер'
+lobby_map_selector_best_server_lore:
+    - '§7Выбор самого оптимального'
+    - '§7сервер для игры'
+    - ''
+    - '§aНажмите, чтобы найти сервер'
+lobby_map_selector_map_name: '§a%map%'
+lobby_map_selector_map_lore:
+    - ''
+    - '§7Информация о карте:'
+    - ' §8◾ §7Всего арен: §a%total%'
+    - ' §8◾ §7Свободно арен: §a%free%'
+    - ''
+    - '§aНажмите, чтобы найти сервер с данной картой'
+lobby_map_selector_no_servers_name: '§cАрены не обнаружены'
+lobby_map_selector_no_servers_lore:
+    - ''
+    - '§7Не удалось найти игровые арены, попробуйте'
+    - '§7сменить лобби или подождите немного.'
+
+redirect_to_server: '§aТелепортируем на сервер %server%'
+best_server_not_found: '$prefix$Мы не смогли найти подходящую арену'
+
 statistics_gui_item_playerinfo_name: '§eИнформация о игроке %user_displayname%'
 statistics_gui_item_playerinfo_lore:
     - ''
