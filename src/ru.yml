@@ -325,6 +325,23 @@ staff_group_item_lore_offline:
     - '§7Последний раз был в сети:'
     - ' §e%last_login% назад'
 
+lobby_items_game_selector_name: '§aВыбор режима'
+lobby_items_game_selector_lore:
+    - '§7Используйте этот предмет'
+    - '§7для выбора режима'
+lobby_items_profile_name: '§eПрофиль'
+lobby_items_profile_lore:
+    - '§7Используйте этот предмет'
+    - '§7для получение информации о вас'
+lobby_items_fast_game_name: '§aБыстрая игра'
+lobby_items_fast_game_lore:
+    - ''
+lobby_items_privileges_name: '§eПривилегии'
+lobby_items_privileges_lore:
+    - ''
+lobby_items_lobby_selector_name: '§eВыбор лобби'
+lobby_items_lobby_selector_lore:
+    - ''
 
 lobby_selector_already_server_name: '§a'
 lobby_selector_click_to_teleport_name: '§e'
