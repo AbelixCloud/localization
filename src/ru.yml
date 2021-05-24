@@ -551,9 +551,14 @@ loading: '§cЗагрузка..'
 # ====================
 core_prefix: '§6Core §8» §r'
 
-core_stop_server_null: '$prefix$Сервер §e%server% §fне найден'
-core_stop_server_successfully: '$prefix$Сервер §e%server% §fотправлен на перезагрузку'
-core_stop_servers_successfully: '$prefix$Сервера с префиксом §e%prefix% §fотправлены на перезагрузку'
+servermanagement_help:
+    - ' §a/smanager stop [-p] <название сервера> §7- §fперезагрузить сервер'
+
+core_stop_server_null: '$prefix$Сервер §a%server% §fне найден'
+core_stop_server_successfully: '$prefix$Сервер §a%server% §fотправлен на перезагрузку'
+core_stop_server_successfully_broadcast: '$prefix$%user_displayname% §fотправил на перезагрузку сервер §a%server%'
+core_stop_servers_successfully: '$prefix$Сервера с префиксом §a%prefix% §fотправлены на перезагрузку'
+core_stop_servers_successfully_broadcast: '$prefix$%user_displayname% §fотправил на перезагрузку сервера с префиксом §a%server%'
 
 core_command_whois_result:
     - '$prefix$Информация о игроке §e%user_displayname%§f:'
