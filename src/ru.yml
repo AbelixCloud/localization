@@ -96,6 +96,8 @@ vk_bind_command_use: 'Правильное использование: !акка
 vk_user_is_bind: 'У вас уже есть привязанный аккаунт'
 vk_user_already_bind: 'Аккаунт %user% уже привязан другим человеком'
 vk_bind: 'Аккаунт %user% успешно привязан!'
+vk_changepassword_notificate:
+    - '&#9989; Пароль на вашем аккаунте успешно изменен на %password%'
 vk_bind_for_player: '$prefix$Данный аккаунт успешно привязан к §avk.com/id%id%'
 vk_login_admin_notificate:
     - '⚠ На ваш аккаунт была выполнена попытка входа!'
