@@ -115,7 +115,7 @@ command_minimal_group_error: '$prefix$Данная команда доступн
 command_player_never_played_error: '$prefix$Игрок §7%user_name% §fникогда прежде не играл на проекте'
 command_player_offline: '$prefix$Игрок §7%user_displayname% §fоффлайн, последний раз был в сети §7%user_last_login% §fназад'
 command_player_not_exist: '$prefix$Игрок §7%name% §fникогда прежде не играл на нашем проекте'
-command_unvailable_from_console: '$prefix$Данная команда доступна только для игроков'
+command_unavailable_from_console: '$prefix$Данная команда доступна только для игроков'
 command_subcommand_not_found: '$prefix$Введенная вами подкоманда не обнаружена'
 command_double: '$prefix$Использование двоеточий в командах запрещено!'
 
@@ -256,6 +256,8 @@ tab_footer:
 teleport_successfully: '$prefix$Вы телепортированы на координаты §a%coords%'
 gamemode_equal_null: '$prefix$Введен неправильный игровой режим'
 gamemode_changed: '$prefix$Ваш игровой режим изменен на §a%gamemode%'
+speed_error: '$prefix$Введено неверное значение скорости'
+speed_changed: '$prefix$Скорость передвижения изменена на §a%value%'
 
 # ====================
 #        Lobby
