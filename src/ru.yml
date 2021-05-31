@@ -107,7 +107,7 @@ vk_login_admin_notificate:
     - ''
     - ''
 
-main_prefix: '§6Abelix§fCloud §8» §f'
+main_prefix: '§6AbelixClub §8» §f'
 
 subcommand_help: '§fПомощь по команде §a%command%§f:'
 command_wrong_usage: '$prefix$Вы ошиблись при исполнении команды, используйте - §a%command%'
