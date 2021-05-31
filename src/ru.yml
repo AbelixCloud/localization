@@ -243,15 +243,15 @@ player_data_has_been_updated:
     - '§eВаши игровые данные были обновлены'
 
 tab_header:
-    - '§6§lAbelix'
-    - ''
-    - '§fОнлайн проекта: §a%online%'
-    - '§fСервер: §a%server%'
-    - ''
-tab_footer:
+    - '§6§lAbelixClub'
     - ''
     - '§fСайт: §eabelix.club'
     - '§fВК: §bvk.com/abelixclub'
+    - ''
+tab_footer:
+    - ''
+    - '§fВы находитесь на сервере:'
+    - '§a%server%'
     - ''
 
 teleport_successfully: '$prefix$Вы телепортированы на координаты §a%coords%'
