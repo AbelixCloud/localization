@@ -257,6 +257,7 @@ tab_footer:
 teleport_successfully: '$prefix$Вы телепортированы на координаты §a%coords%'
 gamemode_equal_null: '$prefix$Введен неправильный игровой режим'
 gamemode_changed: '$prefix$Ваш игровой режим изменен на §a%gamemode%'
+gamemode_changed_to: '$prefix$Игровой режим %target_displayname% §fизменен на §a%gamemode%'
 speed_error: '$prefix$Введено неверное значение скорости'
 speed_changed: '$prefix$Скорость передвижения изменена на §a%value%'
 
