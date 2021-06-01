@@ -307,7 +307,24 @@ donate_menu_group_diamond_lore:
     - ''
 donate_menu_group_diamond_plus_lore:
     - ''
-    
+
+donate_menu_permissions_global_group_iron_lore:
+    - ''
+donate_menu_permissions_global_group_gold_lore:
+    - ''
+donate_menu_permissions_global_group_diamond_lore:
+    - ''
+donate_menu_permissions_global_group_diamond_plus_lore:
+    - ''
+donate_menu_permissions_skywars_group_iron_lore:
+    - ''
+donate_menu_permissions_skywars_group_gold_lore:
+    - ''
+donate_menu_permissions_skywars_group_diamond_lore:
+    - ''
+donate_menu_permissions_skywars_group_diamond_plus_lore:
+    - ''
+
 lobby_selector_item_lore:
     - ''
     - '§7Онлайн лобби: §f%online%'
