@@ -128,6 +128,9 @@ interlocutor_null: '$prefix$Ваш собеседник не обнаружен'
 server_not_found: '$prefix$Сервер §a%server% §fне обнаружен'
 server_result: '$prefix$Вы телепортированы на сервер §a%server%'
 server_not_enabled: '$prefix$Сервер §a%server% §fотключен, телепортация невозможна'
+server_is_down:
+    - '$prefix$§rСервер §a%server% §rотключен, Вы перемещены на сервер §a%target_server%'
+    - '$prefix$§rПричина: §a%reason%'
 already_on_server: '$prefix$Вы уже находитесь на данном сервере'
 
 whitelist_kick:
