@@ -545,6 +545,13 @@ recent_game_item_lore:
 #        Other
 # ====================
 
+board_group: 'Группа'
+board_money: 'Монет'
+board_gold: 'Золота'
+board_level: 'Уровень'
+board_progress: 'Прогресс'
+board_online_lobby: 'Онлайн лобби'
+
 creative: 'Креатив'
 survival: 'Выживание'
 adventure: 'Приключенческий'
