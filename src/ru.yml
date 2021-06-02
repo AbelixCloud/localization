@@ -496,9 +496,12 @@ serverselector_profile_lore:
     - '§7Нажмите, чтобы открыть'
     - '§7свой профиль'
 serverselector_lobby_name: '§e%to_server%'
-serverselector_lobby_lore:
+serverselector_already_in_the_hub:
     - ''
-    - '§aНажмите, чтобы переместиться в %to_server%'
+    - '§eВы уже находитесь в хабе'
+serverselector_to_hub:
+    - ''
+    - '§aНажмите, чтобы телепортироваться в хаб'
 serverselector_luckywars_item_lore:
     - '§7В этой игре ваша цель состоит в том,'
     - '§7чтобы разбивать блоки блоков,'
