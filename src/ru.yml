@@ -495,7 +495,7 @@ serverselector_profile_name: '§eВаш профиль'
 serverselector_profile_lore:
     - '§7Нажмите, чтобы открыть'
     - '§7свой профиль'
-serverselector_lobby_name: '§e%to_server%'
+serverselector_lobby_name: '§a%to_server%'
 serverselector_already_in_the_hub:
     - ''
     - '§eВы уже находитесь в хабе'
