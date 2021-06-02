@@ -491,6 +491,14 @@ statistics_gui_item_luckywars_lore:
     - ' §8- §7Сломано лаки-блоков: §e%statistics_luckyblocks_destructed_luckywars_solo%'
     - ''
 
+serverselector_profile_name: '§eВаш профиль'
+serverselector_profile_lore:
+    - '§7Нажмите, чтобы открыть'
+    - '§7свой профиль'
+serverselector_lobby_name: '§e%to_server%'
+serverselector_lobby_lore:
+    - ''
+    - '§aНажмите, чтобы переместиться в %to_server%'
 serverselector_luckywars_item_lore:
     - '§7В этой игре ваша цель состоит в том,'
     - '§7чтобы разбивать блоки блоков,'
