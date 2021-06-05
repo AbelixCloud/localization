@@ -528,6 +528,13 @@ game_player_join: '$prefix$%user_displayname% §fподключился к иг�
 game_player_quit: '$prefix$%user_displayname% §fвышел из игры (§a%online%§7/§a%max_players%§f)'
 start_game_arena: '$prefix$Начало игры через §a%time% §f%time_formatted%'
 
+game_spectator_gui_item_lore:
+    - ''
+    - '§7Жизней: §c%health_percent%'
+    - '§7Голод: §e%food_percent%'
+    - ''
+    - '§aНажмите, чтобы телепортироваться к игроку'
+
 recent_game_gametype_null: '$prefix$Не удалось найти указанный вами тип сервера!'
 recent_game_gametype_not_game: '$prefix$Этот тип сервера не является игровым!'
 recent_game_item_name: '§aИгра #%recent_game_id%'
