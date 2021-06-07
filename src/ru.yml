@@ -132,6 +132,7 @@ server_is_down:
     - '$prefix$§rСервер §a%server% §rотключен, Вы перемещены на сервер §a%target_server%'
     - '$prefix$§rПричина: §a%reason%'
 already_on_server: '$prefix$Вы уже находитесь на данном сервере'
+login_to_server_is_restricted: '§cВход на сервер %server% ограничен'
 
 whitelist_kick:
     - ''
