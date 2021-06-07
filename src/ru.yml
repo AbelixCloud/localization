@@ -265,6 +265,15 @@ gamemode_changed_to: '$prefix$Игровой режим %target_displayname% §f
 speed_error: '$prefix$Введено неверное значение скорости'
 speed_changed: '$prefix$Скорость передвижения изменена на §a%value%'
 
+pluginmodule_help:
+    - ' §a/pluginmodule info <название модуля> §7- §fинформация о модуле'
+pluginmodule_equal_null: '$prefix$Модуль §c%module% §fне обнаружен'
+pluginmodule_module_list: '$prefix$Список модулей: %modules%'
+pluginmodule_module_info:
+    - '$prefix$Информация о модуле §a%module_name%§f:'
+    - ' §7- §fАвтор: §a%module_author%'
+    - ' §7- §fВремя запуска: §a%module_startup_date%'
+
 # ====================
 #        Lobby
 # ====================
