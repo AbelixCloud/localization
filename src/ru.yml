@@ -611,10 +611,10 @@ loading: '§cЗагрузка..'
 # ====================
 #        Core
 # ====================
-core_prefix: '§6Core §8» §r'
+core_prefix: '§8[§cCore§8] §e'
 
 servermanagement_help:
-    - ' §a/smanager stop [-p] <название сервера> §7- §fперезагрузить сервер'
+    - ' §b/smanager stop [-p] <название сервера> §7- §eперезагрузить сервер'
 
 core_stop_server_null: '$prefix$Сервер §a%server% §fне найден'
 core_stop_server_successfully: '$prefix$Сервер §a%server% §fотправлен на перезагрузку'
