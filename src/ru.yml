@@ -63,7 +63,7 @@ auth_account_banned:
     
 auth_block_commands: '$prefix$§cВы не можете использовать чат на сервере авторизации'
 
-auth_title: '§6§lAbelix'
+auth_title: '§6§lAbelixClub'
 auth_subtitle: '§rДля продолжения %type%'
 
 vk_command_status:
@@ -109,30 +109,30 @@ main_prefix: '§8[§6AbelixClub§8] §e'
 
 subcommand_help: '§eПомощь по команде §b/%command%§e:'
 command_wrong_usage: '$prefix$§eВы ошиблись при исполнении команды, используйте §b%command%'
-command_minimal_group_error: '$prefix$§cДанная команда доступна от группы %group% §cи выше'
-command_player_offline: '$prefix$§cИгрок §7%user_displayname% §cоффлайн, последний раз был в сети %user_last_login% §cназад'
-command_player_not_exist: '$prefix$Игрок §7%name% §fникогда прежде не играл на нашем проекте'
-command_unavailable_from_console: '$prefix$§4Данная команда доступна только для игроков'
+command_minimal_group_error: '$prefix$§cДанная команда доступна от группы %group% §cи выше.'
+command_player_offline: '$prefix$§cИгрок §7%user_displayname% §cоффлайн, последний раз был в сети %user_last_login% §cназад.'
+command_player_not_exist: '$prefix$Игрок §7%name% §fникогда прежде не играл на нашем проекте.'
+command_unavailable_from_console: '$prefix$§4Данная команда доступна только игрокам.'
 command_unavailable_on_game_server: '$prefix$§cДанная команда недоступна на игровых серверах!'
-command_subcommand_not_found: '$prefix$§cВведенная вами подкоманда не обнаружена'
+command_subcommand_not_found: '$prefix$§cВведенная вами подкоманда не обнаружена!'
 command_double: '$prefix$§cИспользование двоеточий в командах запрещено!'
 
 staffchat_format: '§8[§cПерсонал§8] §7%user_displayname%§8: §f%message%'
 
-cant_write_message_yourself: '$prefix$§cВы не можете написать сообщение самому себе'
-interlocutor_null: '$prefix$§cВаш собеседник не обнаружен'
+cant_write_message_yourself: '$prefix$§cВы не можете написать сообщение самому себе.'
+interlocutor_null: '$prefix$§cВаш собеседник не обнаружен.'
 
-server_not_found: '$prefix$§cСервер §a%server% §cне обнаружен'
-server_result: '$prefix$§aВы телепортированы на сервер %server%'
-server_not_enabled: '$prefix$§cСервер %server% §fотключен, телепортация невозможна'
+server_not_found: '$prefix$§cСервер §a%server% §cне обнаружен.'
+server_result: '$prefix$§aВы телепортированы на сервер %server%.'
+server_not_enabled: '$prefix$§cСервер %server% §fотключен, телепортация невозможна.'
 server_is_down:
     - '$prefix$§eСервер §b%server% §eотключен, Вы перемещены на сервер §b%target_server%'
-already_on_server: '$prefix$§cВы уже находитесь на данном сервере'
-login_to_server_is_restricted: '§cВход на сервер %server% ограничен'
+already_on_server: '$prefix$§cВы уже находитесь на данном сервере.'
+login_to_server_is_restricted: '§cВход на сервер %server% ограничен.'
 
 whitelist_kick:
     - ''
-    - '§6§lAbelix'
+    - '§6§lAbelixClub'
     - ''
     - '§7На данный момент на сервере включен белый список,'
     - '§7и если вы один из тех, кто находится в белом списке,'
@@ -141,19 +141,19 @@ whitelist_kick:
     - ''
 whitelist_enable_kick:
     - ''
-    - '§6§lAbelix'
+    - '§6§lAbelixClub'
     - ''
     - '§7На сервере включен вайтлист.'
     - '§7Если вы считаете, что это ошибка, сообщите об этом группе:'
     - '§b§nhttps://vk.com/abelixclub'
     - ''
 
-group_incorrect_error_id: '$prefix$§cВведено некорректный ID группы'
-group_incorrent_error_name: '$prefix$§cВведено некорректное название группы'
-player_already_has_group: '$prefix$§cУ данного игрока уже есть данная группа'
-group_successfully_changed: '$prefix$§aГруппа игрока %user_displayname%§a успешно изменена на %group_colouredname%'
-group_successfully_changed_broadcast: '$prefix$%user_displayname%§e изменил группу игрока %target_displayname%§e на §f%group_colouredname%'
-group_command_list: '$prefix$§eСписок групп: §7%groups%'
+group_incorrect_error_id: '$prefix$§cВведено некорректный ID группы.'
+group_incorrent_error_name: '$prefix$§cВведено некорректное название группы.'
+player_already_has_group: '$prefix$§cУ данного игрока уже есть данная группа.'
+group_successfully_changed: '$prefix$§aГруппа игрока %user_displayname%§a успешно изменена на %group_colouredname%.'
+group_successfully_changed_broadcast: '$prefix$%user_displayname%§e изменил группу игрока %target_displayname%§e на §f%group_colouredname%.'
+group_command_list: '$prefix$§eСписок групп: §7%groups%.'
 group_help:
     - ' §b/group set <ник игрока> <название/id группы> §7- §eустановить группу'
     - ' §b/group list §7- §eсписок доступных групп'
@@ -238,28 +238,24 @@ party_list_format:
     - ' §e• §rЛидер: §7%leader% §r(§a%leader_server%§r)'
     - ' §e• §rУчастники: §7%members%'
 
-
-player_data_has_been_updated:
-    - '§eВаши игровые данные были обновлены'
-
 tab_header:
     - '§6§lAbelixClub'
     - ''
-    - '§fСайт: §eabelix.club'
-    - '§fВК: §bvk.com/abelixclub'
+    - '§7Сайт: §eabelix.club'
+    - '§7ВК: §bvk.com/abelixclub'
     - ''
 tab_footer:
     - ''
-    - '§fВы находитесь на сервере:'
-    - '§a%server%'
+    - '§7Вы находитесь на сервере:'
+    - '§b%server%'
     - ''
 
-teleport_successfully: '$prefix$Вы телепортированы на координаты §a%coords%'
-gamemode_equal_null: '$prefix$Введен неправильный игровой режим'
-gamemode_changed: '$prefix$Ваш игровой режим изменен на §a%gamemode%'
-gamemode_changed_to: '$prefix$Игровой режим %target_displayname% §fизменен на §a%gamemode%'
-speed_error: '$prefix$Введено неверное значение скорости'
-speed_changed: '$prefix$Скорость передвижения изменена на §a%value%'
+teleport_successfully: '$prefix$§aВы телепортированы на координаты %coords%.'
+gamemode_equal_null: '$prefix$§cВведен неправильный игровой режим'
+gamemode_changed: '$prefix$§aВаш игровой режим изменен на %gamemode%'
+gamemode_changed_to: '$prefix$§eИгровой режим %target_displayname% §eизменен на §b%gamemode%'
+speed_error: '$prefix$§cВведено неверное значение скорости'
+speed_changed: '$prefix$§aСкорость передвижения изменена на %value%'
 
 pluginmodule_help:
     - ' §a/pluginmodule info <название модуля> §7- §fинформация о модуле'
@@ -298,7 +294,7 @@ lobby_profile_level_item_lore:
     
 lobby_level_reward_name: 'Награда за %level% уровень'
 lobby_level_reward_lore:
-    - '§7Награы за достижение §f%level% §7уровня:'
+    - '§7Награды за достижение §b%level% §7уровня:'
 lobby_level_reward_lore2:
     - '§eНажмите, чтобы забрать награды!'
 lobby_level_reward_lore3:
@@ -342,22 +338,6 @@ lobby_selector_item_lore:
 lobby_selector_item_lore_friends: '§7Друзья на сервере:'
 lobby_selector_item_lore_friends_format: ' §8◾ §r%friend_displayname%'
 
-staff_group_category_item_lore:
-    - ''
-    - '§7Всего: §a%total%'
-    - '§7Онлайн: §a%online%'
-    - ''
-    - '§aНажмите, чтобы открыть'
-staff_group_item_lore_online:
-    - ''
-    - '§7Сервер: §a%server%'
-staff_group_item_lore_offline:
-    - ''
-    - '§7Последний сервер: §a%server%'
-    - ''
-    - '§7Последний раз был в сети:'
-    - ' §e%last_login% назад'
-
 lobby_items_game_selector_name: '§aВыбор режима'
 lobby_items_game_selector_lore:
     - '§7Используйте этот предмет'
@@ -388,7 +368,7 @@ lobby_profile_friends_item_lore:
     - '§7телепортироваться к ним на сервер,'
     - '§7если он, конечно же, не переполнен'
     - ''
-    - '§7Друзья онлайн: §a%user_friends_online_size%'
+    - '§7Друзья онлайн: §b%user_friends_online_size%'
     - ''
     - '§aНажмите, чтобы открыть меню'
 lobby_recent_games_item_name: '§eПоследние игры'
@@ -524,15 +504,14 @@ serverselector_item_lore:
     - '§8Онлайн режима %online%'
     - ''
     - '§aНажмите, чтобы подключиться'
-serverselector_lobby_servers_empty: '$prefix$Лобби сервера режима §a%gametype_name% §fне найдены'
 
 lobby_item_back_name: '§cНазад'
 lobby_item_back_lore:
     - '§7Нажмите, чтобы вернуться в профиль'
     
-game_player_join: '$prefix$%user_displayname% §fподключился к игре (§a%online%§7/§a%max_players%§f)'
-game_player_quit: '$prefix$%user_displayname% §fвышел из игры (§a%online%§7/§a%max_players%§f)'
-start_game_arena: '$prefix$Начало игры через §a%time% §f%time_formatted%'
+game_player_join: '$prefix$%user_displayname% §eподключился к игре (§b%online%§e/§b%max_players%§e)'
+game_player_quit: '$prefix$%user_displayname% §eвышел из игры (§b%online%§e/§b%max_players%§e)'
+start_game_arena: '$prefix$§eНачало игры через §b%time% §e%time_formatted%'
 
 game_spectator_gui_item_lore:
     - ''
@@ -616,14 +595,12 @@ core_prefix: '§8[§cCore§8] §e'
 servermanagement_help:
     - ' §b/smanager stop [-p] <название сервера> §7- §eперезагрузить сервер'
 
-core_stop_server_null: '$prefix$Сервер §a%server% §fне найден'
-core_stop_server_successfully: '$prefix$Сервер §a%server% §fотправлен на перезагрузку'
-core_stop_server_successfully_broadcast: '$prefix$%user_displayname% §fотправил на перезагрузку сервер §a%server%'
-core_stop_servers_successfully: '$prefix$Сервера с префиксом §a%prefix% §fотправлены на перезагрузку'
-core_stop_servers_successfully_broadcast: '$prefix$%user_displayname% §fотправил на перезагрузку сервера с префиксом §a%server%'
-
-core_command_whois_result:
-    - '$prefix$Информация о игроке §e%user_displayname%§f:'
+core_stop_server_null: '$prefix$§cСервер §a%server% §fне найден.'
+core_stop_server_successfully: '$prefix$§aСервер %server% отправлен на перезагрузку.'
+core_stop_server_successfully_broadcast: '$prefix$%user_displayname% §eотправил на перезагрузку сервер §b%server%§e.'
+core_stop_servers_successfully: '$prefix$§aСервера с префиксом %prefix% отправлены на перезагрузку.e
+core_stop_servers_successfully_broadcast: '$prefix$buser_displayname% §eотправилbна перезагрузку сеeвера e префиксом §b%server§e%ee.bуbcore_command_whois_resuet:
+  e - '$prefix$Информация о игроке §e%user_displayname%§f:'
     - ' §8- §fИдентификатор: §a%user_id%'
     - ' §8- §fГруппа: %user_group_colouredname%'
     - ' §8- §fМонет: §e%user_money%'
