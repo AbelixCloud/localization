@@ -151,8 +151,8 @@ whitelist_enable_kick:
 group_incorrect_error_id: '$prefix$§cВведено некорректный ID группы.'
 group_incorrent_error_name: '$prefix$§cВведено некорректное название группы.'
 player_already_has_group: '$prefix$§cУ данного игрока уже есть данная группа.'
-group_successfully_changed: '$prefix$§aГруппа игрока %user_displayname%§a успешно изменена на %group_colouredname%.'
-group_successfully_changed_broadcast: '$prefix$%user_displayname%§e изменил группу игрока %target_displayname%§e на §f%group_colouredname%.'
+group_successfully_changed: '$prefix$§aГруппа игрока %user_displayname%§a успешно изменена на %group_colouredname%§a.'
+group_successfully_changed_broadcast: '$prefix$%user_displayname%§e изменил группу игрока %target_displayname%§e на §f%group_colouredname%§e.'
 group_command_list: '$prefix$§eСписок групп: §7%groups%.'
 group_help:
     - ' §b/group set <ник игрока> <название/id группы> §7- §eустановить группу'
