@@ -595,12 +595,14 @@ core_prefix: '§8[§cCore§8] §e'
 servermanagement_help:
     - ' §b/smanager stop [-p] <название сервера> §7- §eперезагрузить сервер'
 
-core_stop_server_null: '$prefix$§cСервер §a%server% §fне найден.'
-core_stop_server_successfully: '$prefix$§aСервер %server% отправлен на перезагрузку.'
-core_stop_server_successfully_broadcast: '$prefix$%user_displayname% §eотправил на перезагрузку сервер §b%server%§e.'
-core_stop_servers_successfully: '$prefix$§aСервера с префиксом %prefix% отправлены на перезагрузку.e
-core_stop_servers_successfully_broadcast: '$prefix$buser_displayname% §eотправилbна перезагрузку сеeвера e префиксом §b%server§e%ee.bуbcore_command_whois_resuet:
-  e - '$prefix$Информация о игроке §e%user_displayname%§f:'
+core_stop_server_null: '$prefix$§cСервер %server% не найден.'
+core_stop_server_successfully: '$prefix$§aСервер %server% отправлен на перезагрузку'
+core_stop_server_successfully_broadcast: '$prefix$%user_displayname% §eотправил на перезагрузку сервер §b%server%'
+core_stop_servers_successfully: '$prefix$§aСервера с префиксом %prefix% отправлены на перезагрузку'
+core_stop_servers_successfully_broadcast: '$prefix$%user_displayname% §eотправил на перезагрузку сервера с префиксом §b%server%'
+
+core_command_whois_result:
+    - '$prefix$Информация о игроке §e%user_displayname%§f:'
     - ' §8- §fИдентификатор: §a%user_id%'
     - ' §8- §fГруппа: %user_group_colouredname%'
     - ' §8- §fМонет: §e%user_money%'
