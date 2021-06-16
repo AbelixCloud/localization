@@ -178,6 +178,8 @@ punishment_successfully_ban: '$prefix$§aВы заблокировали игр�
 punishment_successfully_ban_broadcast: '$prefix$%user_displayname% §eзаблокировал аккаунт %target_displayname% §eна §b%time% §eпо причине §b%reason%'
 punishment_successfully_unban: '$prefix$§aВы разблокировали %type% игрока %target_displayname%'
 punishment_successfully_unban_broadcast: '$prefix$%user_displayname% §eразблокировал %type% игрока %target_displayname%'
+punishment_successfully_kick: '$prefix$§aВы выкинули игрока %target_displayname% §aпо причине §e%reason%'
+punishment_successfully_kick_broadcast: '$prefix$%user_displayname% §eвыкинул игрока %target_displayname% §eпо причине §b%reason%'
 
 friends_help:
     - ' §b/friend add <ник игрока> §7- §eдобавить в друзья'
