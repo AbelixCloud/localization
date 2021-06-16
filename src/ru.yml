@@ -172,6 +172,7 @@ punishment_to_big_time: '$prefix$§cВы не можете наказывать 
 punishment_time_set_incorrect: '$prefix$§cВы указали некорректное время.'
 punishment_player_already_banned: '$prefix$§cИгрок %target_displayname% §cуже заблокирован.'
 punishment_player_not_banned: '$prefix$§cИгрок %target_displayname% §cне заблокирован.'
+punishment_yourself_error: '$prefix$§cВы не можете выдать наказание самому себе.'
 punishment_group_higher_error: '$prefix$§cВы не можете выдать наказание игроку %target_displayname%§c, потому что его группа выше вашей.'
 punishment_group_higher_error2: '$prefix$§cВы не можете снять наказание у игрока %target_displayname%§c, потому что он был наказан игроком с группой выше вашей.'
 punishment_successfully_ban: '$prefix$§aВы заблокировали игрока %target_displayname% §aна §b%time% §eпо причине §b%reason%'
