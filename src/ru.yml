@@ -190,11 +190,18 @@ punishment_successfully_unban: '$prefix$§aВы разблокировали %ty
 punishment_successfully_unban_broadcast: '$prefix$%user_displayname% §eразблокировал %type% игрока %target_displayname%'
 punishment_successfully_kick: '$prefix$§aВы выкинули игрока %target_displayname% §aпо причине §e%reason%'
 punishment_successfully_kick_broadcast: '$prefix$%user_displayname% §eвыкинул игрока %target_displayname% §eпо причине §b%reason%'
-punishment_about_mute:
-    - '§cДоступ в чат заблокирован за %reason%'
+punishment_about_muteip:
+    - ' §cНа данной IP адресе заблокирован доступ в чат'
     - ''
-    - ' §8| §7Заблокировал: %admin%'
-    - ' §8| §7До конца блокировки: §b%time%'
+    - ' §8- §7Заблокировал: %admin%'
+    - ' §8- §7Причина: §b%reason%'
+    - ' §8- §7До конца блокировки: §b%time%'
+punishment_about_mute:
+    - ' §cНа данном аккаунт заблокирован доступ в чат'
+    - ''
+    - ' §8- §7Заблокировал: %admin%'
+    - ' §8- §7Причина: §b%reason%'
+    - ' §8- §7До конца блокировки: §b%time%'
 
 friends_help:
     - ' §b/friend add <ник игрока> §7- §eдобавить в друзья'
