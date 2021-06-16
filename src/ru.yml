@@ -22,16 +22,19 @@ auth_change_password_hover:
     - ''
     - '§7Запомните свой пароль или сделайте'
     - '§7скриншот, чтобы не забыть - §cклавиша F2'
-auth_success_login_via_license: '$prefix$Авторизация успешно пройдена, поскольку у вас включена лицензия'
+auth_success_login_via_license: '$prefix$§aАвторизация успешно пройдена, поскольку у вас включена лицензия'
 auth_success_confirm_license: '$prefix$Лицензия успешно подтверждена!'
+auth_success_login_via_vk: '$prefix$§aАвторизация успешно пройдена, посколько Вы подтвердили вход через §bВКонтакте§e!'
 auth_minimal_nick_length: '§cМинимальная длинна ника 4 символа'
 auth_not_allowed_nick_symbol: '§cВаш ник состоит из недопустимых символов'
 auth_password_length: '$prefix$Введенный вами пароль должен быть не менее %min% и не более %max% символов'
 auth_double_auth_confirm: '$prefix$На вашем аккаунте включена двухэтапная авторизации, подтвердите вход через §bВКонтакте'
+auth_double_auth_dismiss:
+    - '§cВход отклонен через §bВКонтакте'
 auth_double_auth_wait: '$prefix$§eДля входа вам необходимо подтвердить вход с помощью §bВКонтакте'
 auth_double_auth_timeout:
     - '§cВремя подтверждения входа через ВК истекло, перезайдите на сервер'
-auth_need_double_auth_confirm: '$prefix$Подтвердите вход через §9ВКонтакте'
+auth_need_double_auth_confirm: '$prefix$Подтвердите вход через §bВКонтакте'
 auth_wrong_password_limit:
     - '§cВспомните пароль, а потом зайдите'
 auth_dont_use_password: '$prefix$Пожалуйста, если вы не хотите, чтобы вас взломали, не используйте пароли, начинающиеся с 12345'
@@ -93,8 +96,10 @@ vk_user_is_banned:
     - '§cАккаунт заблокирован через §9ВКонтакте'
 vk_bind_command_use: 'Правильное использование: !аккаунт привязать <ник игрока> <пароль>'
 vk_user_is_bind: 'У вас уже есть привязанный аккаунт'
+vk_not_user: 'Данный аккаунт не привязан!'
 vk_user_already_bind: 'Аккаунт %user% уже привязан другим человеком'
 vk_bind: 'Аккаунт %user% успешно привязан!'
+vk_player_offline: 'Игрок оффлайн'
 vk_changepassword_notificate:
     - '&#9989; Пароль на вашем аккаунте успешно изменен на %password%'
 vk_bind_for_player: '$prefix$Данный аккаунт успешно привязан к странице §bhttps://vk.com/id%id%'
@@ -104,6 +109,10 @@ vk_login_admin_notificate:
     - 'IP адрес: %ip% (%location%)'
     - 'Время: %time%'
     - ''
+vk_kick:
+    - '§cАккаунт кикнут через §bВКонтакте'
+vk_double_auth_toggled: 'Двухэтапная авторизация - %value%'
+vk_no_double_auth_requests: 'Запросы не обнаружены..'
 
 main_prefix: '§8[§6AbelixClub§8] §e'
 
