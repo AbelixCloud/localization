@@ -177,6 +177,8 @@ punishment_group_higher_error: '$prefix$§cВы не можете выдать �
 punishment_group_higher_error2: '$prefix$§cВы не можете снять наказание у игрока %target_displayname%§c, потому что он был наказан игроком с группой выше вашей.'
 punishment_successfully_ban: '$prefix$§aВы заблокировали игрока %target_displayname% §aна §e%time% §aпо причине §e%reason%'
 punishment_successfully_ban_broadcast: '$prefix$%user_displayname% §eзаблокировал аккаунт %target_displayname% §eна §b%time% §eпо причине §b%reason%'
+punishment_successfully_banip: '$prefix$§aВы заблокировали IP адрес игрока %target_displayname% §aна §e%time% §aпо причине §e%reason%'
+punishment_successfully_banip_broadcast: '$prefix$%user_displayname% §eзаблокировал IP адрес игрока %target_displayname% §eна §b%time% §eпо причине §b%reason%'
 punishment_successfully_unban: '$prefix$§aВы разблокировали %type% игрока %target_displayname%'
 punishment_successfully_unban_broadcast: '$prefix$%user_displayname% §eразблокировал %type% игрока %target_displayname%'
 punishment_successfully_kick: '$prefix$§aВы выкинули игрока %target_displayname% §aпо причине §e%reason%'
