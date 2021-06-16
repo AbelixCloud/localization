@@ -167,7 +167,7 @@ group_help:
     - ' §b/group set <ник игрока> <название/id группы> §7- §eустановить группу'
     - ' §b/group list §7- §eсписок доступных групп'
 
-punishment_prefix: '§8[§cPunishment§8] §e'
+punishment_prefix: '§8[§6Punishments§8] §e'
 punishment_to_big_time: '$prefix$§cВы не можете наказывать на такой срок.'
 punishment_time_set_incorrect: '$prefix$§cВы указали некорректное время.'
 punishment_player_already_banned: '$prefix$§cИгрок %target_displayname% §cуже заблокирован.'
