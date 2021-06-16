@@ -127,6 +127,7 @@ command_subcommand_not_found: '$prefix$§cВведенная вами подко
 command_double: '$prefix$§cИспользование двоеточий в командах запрещено!'
 
 staffchat_format: '§8[§cПерсонал§8] §7%user_displayname%§8: §f%message%'
+donatechat_format: '§8[§eДонат§8] §7%user_displayname%§8: §f%message%'
 
 cant_write_message_yourself: '$prefix$§cВы не можете написать сообщение самому себе.'
 interlocutor_null: '$prefix$§cВаш собеседник не обнаружен.'
