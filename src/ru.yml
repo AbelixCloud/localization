@@ -164,8 +164,10 @@ punishment_time_set_incorrect: '$prefix$§cВы указали некоррек�
 punishment_player_already_banned: '$prefix$§cИгрок %target_displayname% §cуже заблокирован.'
 punishment_player_not_banned: '$prefix$§cИгрок %target_displayname% §cне заблокирован.'
 punishment_group_higher_error: '$prefix$§cВы не можете выдать наказание %target_displayname%§c, потому что его группа выше вашей.'
-punishment_successfully_ban: '$prefix$§aВы заблокировали игрока %target_displayname% §aна §e%time% §eпо причине §e%reason%'
+punishment_successfully_ban: '$prefix$§aВы заблокировали игрока %target_displayname% §aна §b%time% §eпо причине §b%reason%'
 punishment_successfully_ban_broadcast: '$prefix$%user_displayname% §eзаблокировал аккаунт %target_displayname% §eна §b%time% §eпо причине §b%reason%'
+punishment_successfully_unban: '$prefix$§aВы разблокировали %type% игрока %target_displayname%'
+punishment_successfully_unban_broadcast: '$prefix$%user_displayname% §eразблокировал %type% игрока %target_displayname%'
 
 friends_help:
     - ' §b/friend add <ник игрока> §7- §eдобавить в друзья'
