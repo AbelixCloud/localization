@@ -133,9 +133,9 @@ donatechat_format: '§8[§eДонат§8] §7%user_displayname%§8: §f%message%
 cant_write_message_yourself: '$prefix$§cВы не можете написать сообщение самому себе.'
 interlocutor_null: '$prefix$§cВаш собеседник не обнаружен.'
 
-server_not_found: '$prefix$§cСервер §a%server% §cне обнаружен.'
-server_result: '$prefix$§aВы телепортированы на сервер %server%.'
-server_not_enabled: '$prefix$§cСервер %server% §fотключен, телепортация невозможна.'
+server_not_found: '$prefix$§cСервер %server% не обнаружен.'
+server_result: '$prefix$§aВы телепортированы на сервер §e%server%§a.'
+server_not_enabled: '$prefix$§cСервер %server% отключен, телепортация невозможна.'
 server_is_down:
     - '$prefix$§eСервер §b%server% §eотключен, Вы перемещены на сервер §b%target_server%'
 already_on_server: '$prefix$§cВы уже находитесь на данном сервере.'
