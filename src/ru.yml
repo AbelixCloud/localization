@@ -627,7 +627,7 @@ time_minutes_2:
     - ''
 
 motd:
-    - '     §6§lAbelix §8| §fabelix.club §8| §b1.8-1.16.x'
+    - '         §6§lAbelixClub §8| §fabelix.club §8| §b1.8-1.16.x'
     - '               §fЗакрытое бета-тестирование'
 
 loading: '§cЗагрузка..'
