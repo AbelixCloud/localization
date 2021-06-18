@@ -136,6 +136,8 @@ interlocutor_null: '$prefix$§cВаш собеседник не обнаруже
 server_not_found: '$prefix$§cСервер %server% не обнаружен.'
 server_result: '$prefix$§aВы телепортированы на сервер §e%server%§a.'
 server_not_enabled: '$prefix$§cСервер %server% отключен, телепортация невозможна.'
+server_slot_busy: '§cВас выкинули с сервера, потому что ваше место занял %user_displayname%'
+server_is_full: '§cСервер переполнен. Приобретите группу §7§lSILVER§c, и вы сможете заходить на заполненные сервера.'
 server_is_down:
     - '$prefix$§eСервер §b%server% §eотключен, Вы перемещены на сервер §b%target_server%'
 already_on_server: '$prefix$§cВы уже находитесь на данном сервере.'
