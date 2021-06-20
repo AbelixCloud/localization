@@ -353,14 +353,11 @@ user_level_already_give: '$prefix$Вы уже получили награды з
 user_no_have_other_reward: '$prefix$Чтобы получить эту награду, вам нужно забрать награды за предыдущие уровни'
 
 donate_menu_group_name_format: '§eПривилегия %group%'
-donate_menu_group_iron_lore:
+donate_menu_group_lore_format:
     - ''
-donate_menu_group_gold_lore:
+    - '§7Цена: §e%price%'
     - ''
-donate_menu_group_diamond_lore:
-    - ''
-donate_menu_group_diamond_plus_lore:
-    - ''
+    - '§aНажмите, чтобы узнать подробности'
 
 donate_menu_permissions_global_group_iron_lore:
     - ''
