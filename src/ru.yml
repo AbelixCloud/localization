@@ -127,7 +127,8 @@ command_unavailable_on_game_server: '$prefix$§cДанная команда не
 command_subcommand_not_found: '$prefix$§cВведенная вами подкоманда не обнаружена!'
 command_double: '$prefix$§cИспользование двоеточий в командах запрещено!'
 
-staffchat_format: '§8[§cПерсонал§8] §7%user_displayname%§8: §f%message%'
+adminchat_format: '§8[§cАдминистрация§8] §7%user_displayname%§8: §f%message%'
+staffchat_format: '§8[§9Персонал§8] §7%user_displayname%§8: §f%message%'
 donatechat_format: '§8[§eДонат§8] §7%user_displayname%§8: §f%message%'
 
 cant_write_message_yourself: '$prefix$§cВы не можете написать сообщение самому себе.'
@@ -682,6 +683,9 @@ core_command_whois_result_offline:
     - '   §e%user_last_login% назад'
 core_command_whois_vk_tied: ' §8* §fУ этого игрока привязана страница §9ВКонтакте§f, если вы хотите ее получить, нажмите на это сообщение'
 core_command_whois_vk_tied_hover: '§7Нажмите, чтобы открыть страницу игрока'
+
+core_staff_join_notification: '§8[§cАдминистрация§8] §r%user_displayname% §eподключился к кору'
+core_staff_quit_notification: '§8[§cАдминистрация§8] §r%user_displayname% §eотключился от кора §7§o(наигранно %time_spent%)'
 
 server_started: '$prefix$Сервер §a%server% §fподключен к ядру §7[%type%]'
 server_disconnected: '$prefix$Сервер §a%server% §fотключен от ядра §7[%type%]'
