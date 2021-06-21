@@ -405,6 +405,10 @@ lobby_items_lobby_selector_name: '§eВыбор лобби'
 lobby_items_lobby_selector_lore:
     - '§7Используйте этот предмет'
     - '§7для смены игрового лобби'
+lobby_items_technical_servers_name: '§aТехнические сервера'
+lobby_items_technical_servers_lore:
+    - '§7Используйте этот предмет'
+    - '§7для просмотра технический серверов'
 
 lobby_selector_already_server_name: '§a'
 lobby_selector_click_to_teleport_name: '§e'
